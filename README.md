@@ -1,4 +1,4 @@
-## microURLs
+## microURLs: TinyURL.com clone
 
 - We might use this as a boilerplate: https://github.com/toranb/elixir-url-shortener
 
