@@ -6,14 +6,14 @@
   - target_url
   - friendly_alias
 
-- Examples:
+- Examples:  [ user_id, alias_id, alias, target_url ]
   - [ 1, 1, http://www.google.com, https://µ.domain.com/GoogleAlias1 ]  => Success
   - [ 1, 2, http://www.google.com, https://µ.domain.com/GoogleAlias2 ]  => Success
   - [ 1, 3, http://www.google.com, https://µ.domain.com/GoogleAlias3 ]  => Success
   - [ 1, 4, http://www.gloogle.com, https://µ.domain.com/GoogleAlias1 ] => FAIL on URL target not exists
   - [ 1, 4, http://www.google.com, https://µ.domain.com/GoogleAlias4 ]  => Success
   - [ 1, 5, http://www.google.com, https://µ.domain.com/GoogleAlias1 ]  => FAIL on URL Alias exists in database
-  - [ 1, 6, http://www.google.com, https://µ.domain.com/你好世界！ ]      => Success
+  - [ 1, 5, http://www.google.com, https://µ.domain.com/你好世界！ ]      => Success
 
 - Tests
   - 1. URL HTTP Query 1: Does that target URL exist on web?  Do we want to extract anything from header?  Go = True
