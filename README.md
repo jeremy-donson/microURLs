@@ -1,5 +1,7 @@
 ## microURLs
 
+- We might use this as a boilerplate: https://github.com/toranb/elixir-url-shortener
+
 - Inputs:
   - role_id: public = 1
   - user_id: admin = 1
