@@ -37,8 +37,10 @@
 
 - Rails7 Benchmarking tool: https://blog.saeloun.com/2021/02/25/rails-allows-benchmark-method-to-be-called-from-anywhere.html
 
+- Deploy to Heroku for load testing.....
+
 ---
-- These further versions will bear a higher hourly rate:
+### These further versions will bear a higher hourly rate:
 
 - Performance improvements should happen in parallel with providing two new features in v2:
 
@@ -51,9 +53,11 @@
   - users
   - admins
 
+- Cloud services we may wish to leverage: https://www.mitrais.com/news-updates/aws-amplify-vs-google-firebase-which-is-better/
+
 ---
 
-- Enhancement Configs:
+- V3: Enhancement Configs:
   - dns
   - domains+subdomains
   - blacklisted referrers
