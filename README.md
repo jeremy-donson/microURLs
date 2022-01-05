@@ -3,7 +3,7 @@
 - v1: Create friendly url aliases that include utf8 support. Support performant lookups.
     - Develop [benchmarks](https://www.toptechskills.com/elixir-phoenix-tutorials-courses/benchmark-elixir-code-benchee/) for load testing baselines.
 
-- We are looking to get V1 done for about $50.  Fyrther versions will be revenue generating, so they will bear > hourly rate.
+- We are looking to get V1 done for about $50.  Further versions will be revenue generating, so they will bear > hourly rate.
 
 - We would like to leave v1 open source.  V2+ are proprietary for now.
 
