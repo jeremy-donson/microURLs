@@ -1,9 +1,6 @@
 ## microURLs: TinyURL.com clone
 
 - v1: Create friendly url aliases that include utf8 support. Support performant lookups.  Develop [benchmarks](https://www.toptechskills.com/elixir-phoenix-tutorials-courses/benchmark-elixir-code-benchee/) for load testing baselines.
-  - v2: Add custom domain options. Integrate with sofiasys.urbanspectra.net
-    - v3: Gather target page metadata and content. Generate page optimization suggestions.
-
 ---
 
 - Possible boilerplates: https://github.com/toranb/elixir-url-shortener • https://medium.com/free-code-camp/how-to-write-a-super-fast-link-shortener-with-elixir-phoenix-and-mnesia-70ffa1564b3c
@@ -34,20 +31,33 @@
   - [ 1, 5, http://www.google.com, https://µ.domain.com/GoogleAlias1 ]  => FAIL on URL Alias exists in database
   - [ 1, 5, http://www.google.com, https://µ.domain.com/你好世界！ ]      => Success
 
-
-
-- User Roles:
-  - Users
-  - Devs
-  - Admins
- 
-- Configs:
-  - dns
-  - domains+subdomains
-  - blacklisted referrers
-
 - Performance tests:
   - POST batch tests
   - GET batch  tests
 
 - Rails7 Benchmarking tool: https://blog.saeloun.com/2021/02/25/rails-allows-benchmark-method-to-be-called-from-anywhere.html
+
+---
+- These further versions will bear a higher hourly rate:
+
+- Performance improvements should happen in parallel with providing two new features in v2:
+
+  - v2: Add bulk upload option for $.
+  - v2: Add custom domain options. Integrate with sofiasys.urbanspectra.net
+  - Make this code proprietary.
+
+- User Roles:
+  - public
+  - users
+  - admins
+
+---
+
+- Enhancement Configs:
+  - dns
+  - domains+subdomains
+  - blacklisted referrers
+
+- v3: Gather target page metadata and content. Generate page optimization suggestions.
+
+  - Make this code proprietary.
