@@ -29,7 +29,7 @@
   - [ 1, 1, https://µ.domain.com/GoogleAlias1, http://www.google.com ]  => Success
   - [ 1, 2, https://µ.domain.com/GoogleAlias2, http://www.google.com ]  => Success
   - [ 1, 3, https://µ.domain.com/GoogleAlias3, http://www.google.com ]  => Success
-  - [ 1, 4, https://µ.domain.com/GoogleAlias1, http://www.google.com ] => FAIL on URL target not exists
+  - [ 1, 4, https://µ.domain.com/GoogleAlias1, http://www.gloogle.com ] => FAIL on URL target not exists
   - [ 1, 4, https://µ.domain.com/GoogleAlias4, http://www.google.com ]  => Success
   - [ 1, 5, https://µ.domain.com/GoogleAlias1, http://www.google.com ]  => FAIL on URL Alias exists in database
   - [ 1, 5, https://µ.domain.com/你好世界, http://www.google.com ]      => Success
