@@ -37,7 +37,7 @@
 
 - Performance tests:
   - POST batch tests => create hash and hash ID
-  - GET batch  tests => resolve on hash and hash id
+  - GET batch  tests => resolve on hash and hash id => https://medium.com/@wttj_tech/elixir-how-to-distribute-mnesia-between-multiple-nodes-cb7c851b1ed1
 
 - Rails7 Benchmarking tool: https://blog.saeloun.com/2021/02/25/rails-allows-benchmark-method-to-be-called-from-anywhere.html
 
