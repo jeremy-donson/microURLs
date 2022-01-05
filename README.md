@@ -34,9 +34,10 @@
   - [ 1, 5, https://µ.domain.com/GoogleAlias1, http://www.google.com ]  => FAIL on URL Alias exists in database
   - [ 1, 5, https://µ.domain.com/你好世界, http://www.google.com ]      => Success
 
+
 - Performance tests:
-  - POST batch tests
-  - GET batch  tests
+  - POST batch tests => create hash and hash ID
+  - GET batch  tests => resolve on hash and hash id
 
 - Rails7 Benchmarking tool: https://blog.saeloun.com/2021/02/25/rails-allows-benchmark-method-to-be-called-from-anywhere.html
 
