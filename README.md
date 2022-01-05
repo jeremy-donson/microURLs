@@ -5,6 +5,8 @@
 
 - Possible boilerplates: [Github Repo](https://github.com/toranb/elixir-url-shortener) • [medium article](https://medium.com/free-code-camp/how-to-write-a-super-fast-link-shortener-with-elixir-phoenix-and-mnesia-70ffa1564b3c) • [corresponding repo](https://github.com/bechurch/shorten_api_tutorial)
 
+This ugly UI will help us walk thru thge logic.
+
 - Tests
   - 1. URL HTTP Query 1: Does that target URL exist on web?  Do we want to extract anything from header?  Go = True
   - 2. URL Database Query 2: Does that target URL exist in our database?  Good to know!
@@ -23,13 +25,13 @@
   - friendly_alias
 
 - Examples:  [ user_id, alias_id, alias, target_url ]
-  - [ 1, 1, http://www.google.com, https://µ.domain.com/GoogleAlias1 ]  => Success
-  - [ 1, 2, http://www.google.com, https://µ.domain.com/GoogleAlias2 ]  => Success
-  - [ 1, 3, http://www.google.com, https://µ.domain.com/GoogleAlias3 ]  => Success
-  - [ 1, 4, http://www.gloogle.com, https://µ.domain.com/GoogleAlias1 ] => FAIL on URL target not exists
-  - [ 1, 4, http://www.google.com, https://µ.domain.com/GoogleAlias4 ]  => Success
-  - [ 1, 5, http://www.google.com, https://µ.domain.com/GoogleAlias1 ]  => FAIL on URL Alias exists in database
-  - [ 1, 5, http://www.google.com, https://µ.domain.com/你好世界！ ]      => Success
+  - [ 1, 1, https://µ.domain.com/GoogleAlias1, http://www.google.com ]  => Success
+  - [ 1, 2, https://µ.domain.com/GoogleAlias2, http://www.google.com ]  => Success
+  - [ 1, 3, https://µ.domain.com/GoogleAlias3, http://www.google.com ]  => Success
+  - [ 1, 4, https://µ.domain.com/GoogleAlias1, http://www.google.com ] => FAIL on URL target not exists
+  - [ 1, 4, https://µ.domain.com/GoogleAlias4, http://www.google.com ]  => Success
+  - [ 1, 5, https://µ.domain.com/GoogleAlias1, http://www.google.com ]  => FAIL on URL Alias exists in database
+  - [ 1, 5, https://µ.domain.com/你好世界, http://www.google.com ]      => Success
 
 - Performance tests:
   - POST batch tests
