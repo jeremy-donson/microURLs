@@ -87,6 +87,8 @@
 
 - Cloud services we may wish to leverage: https://www.mitrais.com/news-updates/aws-amplify-vs-google-firebase-which-is-better/
 
+- DynamoDB or cloud datastores could be used for hash uniqueness.  SQL database might be overkill?
+
 - Universities can trade cloud credit for services:  https://edu.google.com/intl/ALL_us/programs/credits/research/?modal_active=none
 
 ---
