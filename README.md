@@ -1,12 +1,12 @@
 ## microURLs: TinyURL.com clone
 
-- v1: Create friendly url aliases that include utf8 support. Support performant lookups.  Develop [benchmarks](https://blog.saeloun.com/2021/02/25/rails-allows-benchmark-method-to-be-called-from-anywhere.html) for load testing baselines.
+- v1: Create friendly url aliases that include utf8 support. Support performant lookups.  Develop [benchmarks](https://www.toptechskills.com/elixir-phoenix-tutorials-courses/benchmark-elixir-code-benchee/) for load testing baselines.
   - v2: Add custom domain options. Integrate with sofiasys.urbanspectra.net
     - v3: Gather target page metadata and content. Generate page optimization suggestions.
 
 ---
 
-- We might use this as a boilerplate: https://github.com/toranb/elixir-url-shortener
+- Possible boilerplates: https://github.com/toranb/elixir-url-shortener • https://medium.com/free-code-camp/how-to-write-a-super-fast-link-shortener-with-elixir-phoenix-and-mnesia-70ffa1564b3c
 
 - Tests
   - 1. URL HTTP Query 1: Does that target URL exist on web?  Do we want to extract anything from header?  Go = True
@@ -49,3 +49,5 @@
 - Performance tests:
   - POST batch tests
   - GET batch  tests
+
+- Rails7 Benchmarking tool: https://blog.saeloun.com/2021/02/25/rails-allows-benchmark-method-to-be-called-from-anywhere.html
