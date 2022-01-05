@@ -3,7 +3,7 @@
 - v1: Create friendly url aliases that include utf8 support. Support performant lookups.  Develop [benchmarks](https://www.toptechskills.com/elixir-phoenix-tutorials-courses/benchmark-elixir-code-benchee/) for load testing baselines.
 ---
 
-- Possible boilerplates: [Github Repo](https://github.com/toranb/elixir-url-shortener) • [medium article](https://medium.com/free-code-camp/how-to-write-a-super-fast-link-shortener-with-elixir-phoenix-and-mnesia-70ffa1564b3c)
+- Possible boilerplates: [Github Repo](https://github.com/toranb/elixir-url-shortener) • [medium article](https://medium.com/free-code-camp/how-to-write-a-super-fast-link-shortener-with-elixir-phoenix-and-mnesia-70ffa1564b3c) • [corresponding repo](https://github.com/bechurch/shorten_api_tutorial)
 
 - Tests
   - 1. URL HTTP Query 1: Does that target URL exist on web?  Do we want to extract anything from header?  Go = True
