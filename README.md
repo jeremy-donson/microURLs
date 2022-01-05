@@ -1,6 +1,6 @@
 ## microURLs: TinyURL.com clone
 
-- v1: Create friendly url aliases that include utf8 support. Support performant lookups.  Develop benchmarks for load testing baselines.
+- v1: Create friendly url aliases that include utf8 support. Support performant lookups.  Develop [benchmarks](https://blog.saeloun.com/2021/02/25/rails-allows-benchmark-method-to-be-called-from-anywhere.html) for load testing baselines.
   - v2: Add custom domain options. Integrate with sofiasys.urbanspectra.net
     - v3: Gather target page metadata and content. Generate page optimization suggestions.
 
