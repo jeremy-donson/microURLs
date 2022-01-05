@@ -5,7 +5,8 @@
 
 - Possible boilerplates: [Github Repo](https://github.com/toranb/elixir-url-shortener) • [medium article](https://medium.com/free-code-camp/how-to-write-a-super-fast-link-shortener-with-elixir-phoenix-and-mnesia-70ffa1564b3c) • [corresponding repo](https://github.com/bechurch/shorten_api_tutorial)
 
-This ugly UI will help us walk thru thge logic.
+- This ugly UI will help us walk thru the logic...
+![form](https://user-images.githubusercontent.com/34130568/148222599-3ce27d91-decc-4519-a9c5-a74b1e78ee38.png)
 
 - Tests
   - 1. URL HTTP Query 1: Does that target URL exist on web?  Do we want to extract anything from header?  Go = True
