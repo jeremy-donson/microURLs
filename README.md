@@ -7,6 +7,8 @@
 
 - We would like to leave v1 open source.  V2+ are proprietary for now.
 
+- V1 benchmarks are discussed [here](BENCHMARKS.md)
+
 ---
 
 - Possible boilerplates: [Github Repo](https://github.com/toranb/elixir-url-shortener) • [medium article](https://medium.com/free-code-camp/how-to-write-a-super-fast-link-shortener-with-elixir-phoenix-and-mnesia-70ffa1564b3c) • [corresponding repo](https://github.com/bechurch/shorten_api_tutorial)
