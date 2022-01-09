@@ -13,6 +13,8 @@
 
 - Benchmarks
   - We would also want to verify from another benchmarking tool?
+  - Ruby is conspicuously absent from [this benchmarking effort](https://stressgrid.com/blog/benchmarking_go_vs_node_vs_elixir/)
+
   - We also want to find elixir tools that are equivalent to the Rail7 benchmark utility:   
     - https://blog.saeloun.com/2021/02/25/rails-allows-benchmark-method-to-be-called-from-anywhere.html
 
