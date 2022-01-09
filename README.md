@@ -7,7 +7,7 @@
 
 - We would like to leave v1 open source.  V2+ are proprietary for now.
 
-- V1 benchmarks are discussed [here](BENCHMARKS.md)
+- V1 benchmarks are discussed [here](docs/BENCHMARKS.md)
 
 ---
 
