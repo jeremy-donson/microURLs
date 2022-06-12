@@ -1,7 +1,27 @@
 ## microURLs: TinyURL.com clone
+- [Derived From](https://github.com/opnchaudhary/flask-tinyurl-clone)
+---
+- tinyurl.com free features:
+ - create free user account
+ - free support generating short custom aliases that reference actual URLs
+ - free support overriding generated option with explicit custom friendly alias
+ - the assumption is that tinyurl NEVER goes down, or all custom aliases are dead
 
-- [Serviced From](https://github.com/opnchaudhary/flask-tinyurl-clone)
+- web app free features:
+ - create free user account
+ - free support generating short custom aliases that reference actual URLs
+ - free support overriding generated option with explicit custom friendly alias
+ - the assumption is that we NEVER go down, or all custom aliases are dead :/ !!
+ - small batches might be worth giving away for testing and also for value-added marketing
 
+- web app paid features:
+ - support custom domains in custom aliases
+ - support internationalized domains => https://en.wikipedia.org/wiki/Internationalized_domain_name
+ - https://www.charset.org/punycode
+
+- We would arguably have a roadmap with character sets for supporting more and more utf8 characters as ascii in aliases....
+
+---
 - v1: Create friendly url aliases that include utf8 support. Support performant lookups.
     - Develop [benchmarks](https://www.toptechskills.com/elixir-phoenix-tutorials-courses/benchmark-elixir-code-benchee/) for load testing baselines.
 
