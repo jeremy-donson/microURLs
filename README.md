@@ -132,3 +132,5 @@
 <meta property="og:type" content="article" />  
 <meta property="og:image
 ```
+
+https://www.drupal.org/node/847370
